@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp1.MainPage">
+
+
+    <VerticalStackLayout
+        Padding="30,0"
+        Spacing="25">
+
+        <Editor Placeholder="Digite aqui sua anotação" HeightRequest="300" x:Name="editorText"  />
+
+        
+
+        <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+            
+            <Button Text="Salvar" WidthRequest="200" x:Name="saveButton" Clicked="saveButton_Clicked"/>
+
+            <Button Text="Apagar" WidthRequest="200" x:Name="deleteButton" Clicked="deleteButton_Clicked"/>
+
+        </HorizontalStackLayout>
+        <HorizontalStackLayout>
+            <Button Text="Exibir" WidthRequest="200" x:Name="showButton" Clicked="showButton_Clicked"/>
+        </HorizontalStackLayout>
+
+
+    </VerticalStackLayout>
+  
+
+</ContentPage>
