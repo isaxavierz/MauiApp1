@@ -14,13 +14,13 @@
 
         <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
             
-            <Button Text="Salvar" WidthRequest="200" x:Name="saveButton" Clicked="saveButton_Clicked"/>
+            <Button Text="Salvar" WidthRequest="100" x:Name="saveButton" Clicked="saveButton_Clicked"/>
 
-            <Button Text="Apagar" WidthRequest="200" x:Name="deleteButton" Clicked="deleteButton_Clicked"/>
+            <Button Text="Apagar" WidthRequest="100" x:Name="deleteButton" Clicked="deleteButton_Clicked"/>
 
         </HorizontalStackLayout>
         <HorizontalStackLayout>
-            <Button Text="Exibir" WidthRequest="200" x:Name="showButton" Clicked="showButton_Clicked"/>
+            <Button Text="Exibir" WidthRequest="100" x:Name="showButton" Clicked="showButton_Clicked"/>
         </HorizontalStackLayout>
 
 

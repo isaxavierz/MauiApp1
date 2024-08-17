@@ -44,6 +44,8 @@
                 if (File.Exists(filePath))
                 {
                     File.Delete(filePath);
+
+                    showButton.IsVisible = false;
                 }
                 else
                 {
